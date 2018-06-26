@@ -33,7 +33,6 @@
              64 - Volume rocker
           For example, a device with Home, Back and Menu keys would set this
           config to 7. -->
-     <integer name="config_deviceHardwareKeys">64</integer>
 
     <!-- Flag indicating whether the we should enable the automatic brightness in Settings.
          Software implementation will be used if config_hardware_auto_brightness_available is not set -->
@@ -472,11 +471,5 @@
     <!-- Default value for proximity check on screen wake
          NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)
     -->
-    <bool name="config_proximityCheckOnWake">true</bool>
-    <integer name="config_proximityCheckTimeout">200</integer>
-    <bool name="config_proximityCheckOnWakeEnabledByDefault">false</bool>
-
     <!-- Full screen aspect ratio -->
-    <bool name="config_haveHigherAspectRatioScreen">true</bool>
-    <item name="config_screenAspectRatio" format="float" type="dimen">2.1</item>
 </resources>

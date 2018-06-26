@@ -1,1 +1,2 @@
-add_lunch_combo potato_whyred-userdebug
+add_lunch_combo xenonhd_whyred-userdebug
+add_lunch_combo xenonhd_whyred-eng
